@@ -5,6 +5,12 @@ Video of Sandor's mod: https://www.youtube.com/watch?v=PBdJpTGQPfE. In contrast 
 
 I also used the configuration file of https://github.com/schmttc/EasyThreeD-K7-STM32 for porting Marlin to K7.
 
+## Installation
+1. Marlin can be installed by opening the Marlin-Folder in Visual Code Studio and built with PlatformIO.
+2. Upload the built firmware via USB-Connection to the K7 3D printer.
+3. Flash `ESP3D-2.1.2-ESP8266.bin` to the ESP8266 Wemos D1 mini with `esptool.py`or Thonny IDE.
+4. Connect the LCD + Encoder, ESP8266 and button Pins according to the pinout diagram.
+
 ## Custom Buttons Functions
 This mod adds also the following button functions:
 - HOME BUTTON
