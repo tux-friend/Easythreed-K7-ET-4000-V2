@@ -33,5 +33,6 @@ Complete procedure with all axes in Home
 During procedure if you press long, you stop sequence, and axes go to home, 
 use function only to rectify manual calibration to avoid of ruining bed
 
+## Pinout diagram
 
 ![alt text](https://github.com/sandor-ino/MARLIN-2.0.8-LABISTS-X1-SANDOR-MOD/blob/SANDOR-MOD-V1.1/w_PINOUT%20sandor%20mod%20V1.jpg)
