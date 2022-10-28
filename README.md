@@ -36,3 +36,6 @@ use function only to rectify manual calibration to avoid of ruining bed
 ## Pinout diagram
 
 ![alt text](https://github.com/sandor-ino/MARLIN-2.0.8-LABISTS-X1-SANDOR-MOD/blob/SANDOR-MOD-V1.1/w_PINOUT%20sandor%20mod%20V1.jpg)
+
+## Original Source Code for Marlin
+The Original Marlin version from Easythreed for the K7 printer with ET-4000-V2 board can be found in the following branch: https://github.com/tux-friend/Easythreed-K7-ET-4000-V2/tree/Easythreed-Source-Code.
