@@ -1,13 +1,7 @@
-# MARLIN-2.0.8-LABISTS-X1-SANDOR-MOD V1.1
-# Functions test - https://www.youtube.com/watch?v=PBdJpTGQPfE
+# Mod for Easythreed K7 with ET-4000-V2 board (ATmega 1284p, 8-bit)
 
-NEW VERSION V1.1: Update notes in code and more
-
-Sandor Mod V1.1 Modified version of MARLIN 2.0.8 for LABISTS X1 mini 3d printer 
-with some changes in Marlin code, is possible to EASYTHREED X1, K1, SONDORI PICO printer 
-with ET4000 V2 card
-
-SANDOR MOD 5_2021 FAN, BED, LCD + ENCODER, CUSTOM BUTTON FUNCTION
+This mod is ported from https://github.com/sandor-ino/MARLIN-LABISTS-X1-SANDOR-MOD. It adds a SSD1306 Display + Encoder and ESP3D to the K7.
+Video of Sandor's mod: https://www.youtube.com/watch?v=PBdJpTGQPfE
 
 CUSTOM BUTTONS FUNCTIONS
 
