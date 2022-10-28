@@ -1,16 +1,18 @@
 # Mod for Easythreed K7 with ET-4000-V2 board (ATmega 1284p, 8-bit)
 
 This mod is ported from https://github.com/sandor-ino/MARLIN-LABISTS-X1-SANDOR-MOD. It adds a SSD1306 Display + Encoder and ESP3D to the K7.
-Video of Sandor's mod: https://www.youtube.com/watch?v=PBdJpTGQPfE
+Video of Sandor's mod: https://www.youtube.com/watch?v=PBdJpTGQPfE. In contrast to sandor no hotbed is used, but could also be installed.
 
-CUSTOM BUTTONS FUNCTIONS
+I also used the configuration file of https://github.com/schmttc/EasyThreeD-K7-STM32 for porting Marlin to K7.
 
+## Custom Buttons Functions
+This mod adds also the following button functions:
 - HOME BUTTON
 - Pressed for a short time:
 Z axis in Home position and deactivates the Motor Stepper X and Y (manual flat calibration)
-- MINUS BUTTON
+- RETRACT BUTTON
 After heating extracts filament and automatically turn off extruder
-- PLUS BUTTON
+- FEED BUTTON
 After heating extrudation 20 mm of filament, pressing again repeats the thing. Press Home button to turn off extruder
 Note: extruder turns off automatically after 3 minutes of inactivity.
 - PLAY BUTTON
@@ -25,8 +27,5 @@ Complete procedure with all axes in Home
 During procedure if you press long, you stop sequence, and axes go to home, 
 use function only to rectify manual calibration to avoid of ruining bed
 
-note:
-
-    A minimum 60 w power supply is required if the hot bed is installed
 
 ![alt text](https://github.com/sandor-ino/MARLIN-2.0.8-LABISTS-X1-SANDOR-MOD/blob/SANDOR-MOD-V1.1/w_PINOUT%20sandor%20mod%20V1.jpg)
